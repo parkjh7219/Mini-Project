@@ -2,7 +2,7 @@ import socket
 import time
 import random
 
-SERVER_IP = "43.203.170.17" # 수정 필수
+SERVER_IP = "13.124.120.110" # 수정 필수
 PORT = 9999
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 

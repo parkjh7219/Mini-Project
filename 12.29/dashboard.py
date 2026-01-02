@@ -59,7 +59,8 @@ df = load_db_data()
 # =====================================================
 # 3. 헤더
 # =====================================================
-st.markdown('<div class="title-card"><div class="attack-title">🛰️  ATC 실시간 보안 관제 시스템</div></div>', unsafe_allow_html=True)
+st.markdown('<div class="title-card"><div class="attack-title">🛰️  ATC 실시간 보안 관제 시스템</div></div>',
+            unsafe_allow_html=True)
 
 if df.empty:
     st.warning("📡 무전기(receiver.py)를 실행하고 비행기 신호를 기다리는 중입니다...")
